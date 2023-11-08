@@ -13,10 +13,16 @@
 
 .container__botao:checked~.lista__menu {
     display: block;
+    z-index: 2;
 }
 
 .container__botao {
     display: none;
+}
+
+.container__botao:checked + label .container__imagem {
+    background-color: var(--azul);
+    background-image: url("../img/Menu Aberto.svg");
 }
 
 .cabecalho__menu-hamburguer {
