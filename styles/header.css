@@ -21,8 +21,7 @@
 }
 
 .container__botao:checked + label .container__imagem {
-    background-color: var(--azul);
-    background-image: url("../img/Menu Aberto.svg");
+    background: url("../img/MenuAberto.svg") no-repeat center, var(--azul-degrade);
 }
 
 .cabecalho__menu-hamburguer {
