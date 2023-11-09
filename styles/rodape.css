@@ -43,3 +43,19 @@ hr {
         font-size: 14px;
     }
 }
+
+@media screen and (min-width: 1728px){
+
+    .rodape__conteudo {
+        padding: 3em 0;
+    }
+
+    .rodape__titulo {
+        font-size: 24px;
+    }
+
+    .lista__rodape {
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
+    }
+}
