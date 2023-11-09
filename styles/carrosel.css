@@ -18,7 +18,8 @@
     box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.15);
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
     display: none;
 }
 
@@ -81,4 +82,30 @@
 
 .descricao__score {
     margin-bottom: 0.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .carrosel__titulo {
+        font-size:  26px;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
 }

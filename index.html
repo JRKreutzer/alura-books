@@ -85,9 +85,17 @@
         </ul>
         
         <div class="container">
-            <a href="#"><img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem-favorito"></a>
-            <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
-            <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+            
+            <a href="#">
+                <img src="img/Favoritos.svg" alt="Meus Favoritos" class="container__imagem container__imagem-favorito">
+            </a>
+            <a href="#">
+                <img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem">
+            </a>
+            <a href="#">
+                <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+            </a>
+            
         </div>
 
     </header>
@@ -129,42 +137,43 @@
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
 
-                <div class="card">
+            </div>
+            <div class="card">
 
-                    <!-- 1ª linha -->
-                    <div class="card__descricao">
+                <!-- 1ª linha -->
+                <div class="card__descricao">
 
-                        <!-- 1ª coluna -->
-                        <div class="descricao">
+                    <!-- 1ª coluna -->
+                    <div class="descricao">
 
-                            <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
-                            <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-                            <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
-
-                        </div>
-
-                        <!-- 2ª coluna -->
-                        <img src="img/Angular.svg" alt="Logomarca da Angular" class="descricao__imagem">
+                        <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                        <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
 
                     </div>
 
-                    <!-- 2ª linha -->
-                    <div class="card__botoes">
-
-                        <!-- 1ª coluna -->
-                        <ul class="botoes">
-
-                            <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
-                            <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar ao carrinho de compras"></li>
-
-                        </ul>
-
-                        <!-- 2ª coluna -->
-                        <a href="#" class="botoes__ancora">Saiba mais</a>
-
-                    </div>
+                    <!-- 2ª coluna -->
+                    <img src="img/Angular.svg" alt="Logomarca da Angular" class="descricao__imagem">
 
                 </div>
+
+                <!-- 2ª linha -->
+                <div class="card__botoes">
+
+                    <!-- 1ª coluna -->
+                    <ul class="botoes">
+
+                        <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar ao carrinho de compras"></li>
+
+                    </ul>
+
+                    <!-- 2ª coluna -->
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
+
+                </div>
+
+            </div>
 
         </section>
 
@@ -284,9 +293,13 @@
         </section>
 
         <section class="contato">
-
-            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            
+            <div class="contato__descricao">
+                
+                <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+                <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+            
+            </div>
             <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
 
         </section>
@@ -297,7 +310,94 @@
 
         <hr/>
 
-        <h2 class="rodape__titulo">Grupo Alura</h2>
+        <div class="rodape__conteudo">
+
+            <h2 class="rodape__titulo">Grupo Alura</h2>
+            
+            <ul class="lista__rodape">
+
+                <li class="lista__rodape-titulo">Educação</li>
+                <li class="lista__rodape-item">
+                    <img src="img/Caelum.svg" alt="Logomarca da Caelum">
+                    <a href="#" class="lista__rodape-link">Caelum</a>
+                </li>
+                <li class="lista__rodape-item">
+                    <img src="img/CasaDoCodigo.svg" alt="Logomarca da casa do código">
+                    <a href="#" class="lista__rodape-link">Casa do Código</a>
+                </li>
+
+            </ul>
+            
+            <ul class="lista__rodape">
+
+                <li class="lista__rodape-titulo">EDUCAÇÃO ONLINE</li>
+                <li class="lista__rodape-item">
+                    <img src="img/Alura.svg" alt="Logomarca da Alura">
+                    <a href="#" class="lista__rodape-link">Alura</a>
+                </li>
+                <li class="lista__rodape-item">
+                    <img src="img/AluraEmpresas.svg" alt="Logomarca da AluraEmpresas">
+                    <a href="#" class="lista__rodape-link">Alura Para Empresas</a>
+                </li>
+                <li class="lista__rodape-item">
+                    <img src="img/AluraLATAM.svg" alt="Logomarca da AluraLATAM">
+                    <a href="#" class="lista__rodape-link">Alura LATAM</a>
+                </li>
+                <li class="lista__rodape-item">
+                    <img src="img/AluraStart.svg" alt="Logomarca da AluraStart">
+                    <a href="#" class="lista__rodape-link">Alura Start</a>
+                </li>
+                <li class="lista__rodape-item">
+                    <img src="img/MusicDot.svg" alt="Logomarca da MusicDot">
+                    <a href="#" class="lista__rodape-link">MusicDot</a>
+                </li>
+                <li class="lista__rodape-item">
+                    <img src="img/AluraLingua.svg" alt="Logomarca da Alura Língua">
+                    <a href="#" class="lista__rodape-link">Alura Língua</a>
+                </li>
+                <li class="lista__rodape-item">
+                    <img src="img/PM3.svg" alt="Logomarca da PM3">
+                    <a href="#" class="lista__rodape-link">PM3</a>
+                </li>
+
+            </ul>
+
+            <ul class="lista__rodape">
+
+                <li class="lista__rodape-titulo">COMUNIDADE</li>
+                <li class="lista__rodape-item">
+                    <img src="img/HipstersTech.svg" alt="Logomarca da Hipsters ponto Tech">
+                    <a href="" class="lista__rodape-link">Hipsters ponto Tech</a>
+                </li>
+                <li class="lista__rodape-item">
+                    <img src="img/ScubaDev.svg" alt="Logomarca da Scuba Dev">
+                    <a href="" class="lista__rodape-link">Scuba Dev</a>
+                </li>
+                <li class="lista__rodape-item">
+                    <img src="img/LayersTech.svg" alt="Logomarca da Layers ponto Tech">
+                    <a href="" class="lista__rodape-link">Layers ponto Tech</a>
+                </li>
+                <li class="lista__rodape-item">
+                    <img src="img/LikeABoss.svg" alt="Logomarca da Like a Boss">
+                    <a href="" class="lista__rodape-link">Like a Boss</a>
+                </li>
+                <li class="lista__rodape-item">
+                    <img src="img/CarreiraSemFronteira.svg" alt="Logomarca da Carreira sem Fronteira">
+                    <a href="" class="lista__rodape-link">Carreira sem Fronteira</a>
+                </li>
+                <li class="lista__rodape-item">
+                    <img src="img/HipstersJobs.svg" alt="Logomarca da Hipsters ponto Jobs">
+                    <a href="" class="lista__rodape-link">Hipsters ponto Jobs</a>
+                </li>
+                <li class="lista__rodape-item">
+                    <img src="img/GUJ.svg" alt="Logomarca da GUJ">
+                    <a href="" class="lista__rodape-link">GUJ</a>
+                </li>
+
+            </ul>
+
+        </div>
+
 
     </footer>
 
