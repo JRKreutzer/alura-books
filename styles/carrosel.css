@@ -80,6 +80,10 @@
     font-weight: 700;
 }
 
+.botoes__ancora:active {
+    background-color: var(--azul);
+    }
+
 .descricao__score {
     margin-bottom: 0.5em;
 }
